@@ -65,4 +65,24 @@ function render2(docoment: any){
 
 // Arrays in TS
 
+// in JS we can declar a array like this
+let numbers = [1,2,3];
+
+// where each element can be in deferent type
+let numbers2 = [1,2,'3'];
+
+// so we use TS to set type
+let numbers3: number[] = [1,2,3];
+
+// we can also do in TS , it will check the value and will act as numbers3
+let numbers4 = [1,2,3];
+
+// but what if we give an empty arrya ? it will be any array that we should avoid
+let numbers5 = [];
+
+// Only in TS we can get this n.toString, toFixed, valueOf and so many featers
+// As numbers3 is a number array will will get only numbers features , it it was a string then it will show string features 
+numbers3.forEach(n => n.toString)
+
+// ============================================================================================================================================
 
