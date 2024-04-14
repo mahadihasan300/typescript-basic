@@ -40,9 +40,9 @@ level = 'a';
 
 // =========================================================================================================================================
 
-function render(docoment){
-    console.log(docoment)
-}
+// function render(docoment){
+//     console.log(docoment)
+// }
 
 /**
  * This will give error
@@ -53,4 +53,16 @@ function render2(docoment: any){
     console.log(docoment)
 }
 
-// But if there is lots of them we can change the checking in testconfig.json
+
+/**
+ * But if there is lots of them we can change the checking in testconfig.json
+ * "noImplicitAny": false,   
+ * now the render funcion will not give any error 
+ * But this is not recomended
+ */
+
+// ============================================================================================================================================
+
+// Arrays in TS
+
+
