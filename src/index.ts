@@ -95,3 +95,17 @@ num.forEach(function (value) {
 // ============================================================================================================================================
 
 // Tuples in TS
+let user: [number, string] = [1,'Mahadi'];
+
+// geting assess to tuple element 
+user[0].toString // all the property of number object will come
+user[1].charAt(0) // all the property of string object will come
+
+// will get all the property of array object 
+user.forEach // and so on
+
+// one of the drawback is this method, compiler will not give any error but we are pushing in 3rd value which is not  possible
+user.push(1);
+
+// ============================================================================================================================================
+
